@@ -6,8 +6,7 @@ class Appointment {
 
   @PrimaryGeneratedColumn('uuid')
   id: string;
-
-  @Column()
+   @Column()
 
   provider_id: string;
 
