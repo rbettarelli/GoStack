@@ -1,11 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import GlobalStyle from './styles/global'
+
+
 
 const App: React.FC = () => (
+    <>
 
     <h1>Go Barber</h1>
+    <GlobalStyle />
 
+    </>
 );
 
 export default App;
